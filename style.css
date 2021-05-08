@@ -1,0 +1,53 @@
+html, body
+{
+  height: 100%;
+  margin: 0;
+}
+
+body
+{
+background: linear-gradient(to right top, #f5ff9f, #fcff60, #eff300, #d8d400, #cfdd08);
+
+}
+.profile{
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+h1{
+text-align: center;
+font-family: sans-serif;
+}
+h2{
+text-align: center;
+font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+p{
+text-align: center;
+font-family: cursive;
+}
+h4{
+text-align: right;
+font-family: monospace;
+}
+h4 {
+    font-size: 1.5rem;
+  }
+  
+  @keyframes wobb {
+    0%, 100%   {transform: translateY(0px)}
+    25%  {transform: translateY(-3px)}
+    75%  {transform: translateY(3px)}
+  }
+  
+  h4 {
+    animation-name: wobb;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 400ms;
+    display: inline-block;
+    transform: translateY(0px);
+  }
+  
